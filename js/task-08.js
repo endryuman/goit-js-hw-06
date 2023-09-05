@@ -12,5 +12,6 @@ function handleSubmit(evt) {
     alert("Всі поля повинні бути заповнені!");
   } else {
     console.log(info);
+    evt.currentTarget.reset();
   }
 }
